@@ -1,0 +1,29 @@
+name: monster_element
+description: Aplikasi Monster Element - Tugas Flutter Kelas 9
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/fire.png
+    - assets/images/water.png
+    - assets/images/ice.png
+    - assets/images/thunder.png
+    - assets/images/stone.png
+    - assets/images/shadow.png
